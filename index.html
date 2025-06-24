@@ -1,111 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title> Ope's Personal Site </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ope</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet">    
 </head>
-
 <body>
-    <table cellspacing="20">
-        <tr>
-            <td>
-                <img style:{} src="./images/ope.png" alt="Ope Profile Picture">
-            </td>
-            <td>
-                <h1>Ope Orekoya</h1>
-                <p><em>Budding Entrepreneur, <strong>Dreamer</strong>.</em></p>
-                <p>This is a short bio. Nothing much yet. But watch
-                    this space.
-                </p>
-            </td>
-        </tr>
-    </table>
-
-    <hr>
-    <h3>Education</h3>
-    <ul>
-        <li><a href="https://www.leedsbecket.ac.uk">Leeds Metropolitan University</a></li>
-        <ul>
-            <li>Economics for Business</li>
-        </ul>
-        <li><a href="https://www.dundee.ac.uk">University of Dundee</a></li>
-        <ul>
-            <li>Energy Studies - Energy Economics</li>
-        </ul>
-        <li>Prince 2</li>
-        <li>Front End Web Dev Certificate</li>
-        <li>AWS</li>
-        <li>Azure</li>
-    </ul>
-    <hr>
-    <h3>Work Experience</h3>
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>Dates</th>
-                <th>Work</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2025</td>
-                <td>Customer Service Agent</td>
-            </tr>
-            <tr>
-                <td>2022-2024</td>
-                <td>Java Software Engineer</td>
-            </tr>
-        </tbody>
-        <tfoot>
-
-        </tfoot>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-        <tr>
-            <td>
-                <tr>
-                    <td>Java</td>
-                    <td>⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>JavaScript</td>
-                    <td>⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>HTML</td>
-                    <td>⭐⭐</td>   
-                </tr>
-                <tr>
-                    <td>CSS</td>
-                    <td>⭐⭐</td>
-                </tr>
-            </td>
-            <td >
-                <tr>
-                    <td>Python</td>
-                    <td>⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>SQL</td>
-                    <td>⭐⭐⭐</td>
-                </tr>
-                <tr>
-                    <td>React</td>
-                    <td>⭐</td>
-                </tr>
-                <tr>
-                    <td>Node.js</td>
-                    <td>⭐</td>
-                </tr>
-            </td>
-        </tr>
-    </table>
-    <hr>
-    <a href="hobbies.html">My Hobbies</a><br>
-    <a href="contact.html">Contact Me</a>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cartoon_2.jpeg" alt="cloud-image">
+        <h1>I'm Ope.</h1>
+        <h2>An entrepreneur and Programmer</h2>
+        <img class="bottom-cloud" src="images/cartoon_2.jpeg" alt="cloud-image">
+        <img class="mountain" src="images/mountain_1.png" alt="mountain-image">
+    </div>
+    
+    <div class="middle-container">
+        <div class="profile">
+          <img src="images/ope-modified.png" alt="opes-picture">
+          <h2>Hi.</h2>
+          <p>Im an experienced developer with skills in web dev, Java and Python. I also do some AI stuff.
+            I love cycling and reading, research, personal research.
+          </p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="img-left" src="images/java.jpeg" alt="java-logo">
+            <h3>Java</h3>
+            <p>Extensive java experience at Upland Software.</p>
+          </div>
+          <div class="skill-row">
+            <img class="img-right" src="images/javascript.jpeg" alt="javascript-logo">
+            <h3>Javascript</h3>
+            <p>Extensive Javascript and JQuery experience at Upland Software</p>
+          </div>
+          <div class="skill-row">
+            <img class="img-left" src="images/python.png" alt="python-logo">
+            <h3>Python</h3>
+            <p>Extensive python experience at the data shed.</p>
+          </div>
+          <div class="skill-row">
+            <img class="img-right" src="images/react.png" alt="react-logo">
+            <h3>React</h3>
+            <p>React and Frontend web dev training.</p>
+          </div>
+          <div class="skill-row">
+            <img class="img-left" src="images/web-dev.jpeg" alt="web-dev-logo">
+            <h3>Web Dev</h3>
+            <p>React and Frontend Web-Dev training, HTML, CSS.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>Contact me on mobile (07801105675) or email below.</h3>
+          <p>Leeds, West Yorkshire.</p>
+          <a class="btn" href="mailto:oorekoya@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <div class="footer">
+            <a class="footer-link" href="https://www.linkedin.com/ope079">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/opeorekoya">Twitter</a>
+            <a class="footer-link" href="https://www.github.com/ope079">Website</a>
+        </div>
+        <p>© 2025 Ope Orekoya.</p>
+      </div>
+    
 </body>
-
 </html>
